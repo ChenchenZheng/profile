@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+html { 
+  background: url(images/applebigsur.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  color: #0E90DA;
+}
+
+h2 {
+  color: #0E90DA;
+}
+
+#profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#profile-description {
+  margin-bottom: 50px;
+}
+
+.landing {
+  padding-bottom: 60px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #1D1D1F;
+  font-size: 20px;
+}
+
+#btn-rose {background-image: linear-gradient(to right, #0E90DA 0%, #027FFF  51%, #0E90DA  100%)}
+#btn-rose {
+   padding: 10px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 15px;
+ }
+
+ #btn-rose:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
+ a {
+   text-decoration: none;
+ }
+ 
+ div {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  padding: 40px;
+  margin: 30px auto;
+  width: 800px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline a {
+  color:#0E90DA;
+}
+
+.list-inline a :hover {
+  color:#027FFF;
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  div {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 540px) {
+  div {
+    width: auto;
+  }
+}
+
+@media all and (max-device-width: 480px)
+{
+  div {
+    width: auto;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
